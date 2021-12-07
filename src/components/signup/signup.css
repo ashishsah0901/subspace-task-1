@@ -1,0 +1,76 @@
+.signup {
+    flex: 0.35;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 26px 0px 21px -6px #cfcfcf;
+    z-index: 1;
+}
+
+.signup_container {
+    width: 70%;
+    color: #444444;
+    margin: auto;
+}
+
+.signup_container > h1 {
+    font-size: 18px;
+    margin: 30px auto 18px auto;
+    text-align: center;
+}
+
+.signup_password {
+    display: flex;
+    position: relative;
+}
+
+.signup_passwordToggle {
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+
+.signup_container > form > input,
+.signup_password > input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 25px;
+    width: -webkit-fill-available;
+    padding: 0px 25px 10px 5px;
+}
+
+.signup_passwordToggle {
+    display: inline;
+}
+
+.signup_confirm {
+    margin-top: -25px;
+    width: 100%;
+}
+
+.signup_confirm > .MuiCheckbox-root {
+    padding-left: 0 !important;
+}
+
+.signup_confirm > span {
+    font-size: 9px;
+}
+
+.signup_container > form > p {
+    font-size: 8px;
+}
+
+.signup_container > form > p > span {
+    color: #2b83ea;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .signup {
+        background-color: white;
+        box-shadow: none;
+        border-radius: 10px;
+        padding-bottom: 15px;
+    }
+}

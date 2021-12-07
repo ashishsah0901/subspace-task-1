@@ -1,0 +1,67 @@
+.verify {
+    flex: 0.35;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 26px 0px 21px -6px #cfcfcf;
+    z-index: 1;
+}
+
+.verify_container {
+    width: 80%;
+    color: #444444;
+    margin: auto;
+}
+
+.verify_container > .MuiSvgIcon-root {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.verify_container > h1 {
+    color: #444444;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.verify_container > p {
+    font-size: 13px;
+    margin: 18px 0;
+}
+
+.verify_container > form > label {
+    font-size: 14px;
+}
+
+.verify_container > form > input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #676f7c;
+    padding-top: 15px;
+    width: -webkit-fill-available;
+    padding-bottom: 10px;
+}
+
+.verify_resendOtp {
+    font-size: 10px !important;
+}
+
+.verify_resendOtp > span {
+    color: #2b83ea;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.verify_container > .MuiButton-root {
+    display: flex;
+    margin: auto;
+    margin-top: 25%;
+}
+
+@media (max-width: 768px) {
+    .verify {
+        background-color: white;
+        box-shadow: none;
+        border-radius: 10px;
+        padding-bottom: 15px;
+    }
+}
